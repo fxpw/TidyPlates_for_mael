@@ -26,7 +26,8 @@ DefaultStyle.highlight = {
 }
 
 DefaultStyle.healthborder = {
-	texture = ArtworkPath .. "Neon_HealthOverlay",	
+	texture = ArtworkPath .. "Neon_HealthOverlay",
+	-- texture = EmptyTexture,
 	width = 128,
 	height = 32,
 	y = 0,
@@ -208,7 +209,8 @@ StyleTextOnly.name.y = 1
 StyleTextOnly.level.show = false
 StyleTextOnly.skullicon.show = false
 StyleTextOnly.eliteicon.show = false
-StyleTextOnly.highlight.texture = ArtworkPath .. "TextPlate_Highlight"
+-- StyleTextOnly.highlight.texture = ArtworkPath .. "TextPlate_Highlight"
+StyleTextOnly.highlight.texture = EmptyTexture
 StyleTextOnly.target.texture = ArtworkPath .. "TextPlate_Target"
 StyleTextOnly.target.y = -8
 
